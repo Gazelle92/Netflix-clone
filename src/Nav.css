@@ -1,0 +1,25 @@
+.nav{
+    right: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    z-index: 1;
+    
+}
+.nav__black{
+    background: linear-gradient( #111, #fff0 );
+
+}
+.nav__logo{
+    width: 80px;
+    object-fit: contain;
+    left: 20px;
+}
+.nav__avatar{
+    width: 30px;
+    object-fit: contain;
+    right: 20px;
+}
